@@ -278,7 +278,15 @@ O método você deverá colocar **POST** e a **URL** deverá ser a URL recuperad
 
 ![image041.png](images/1/image041.png)
 
-**4.5** Clique em **Body** e selecione a opção **raw** e coloque o json de teste: 
+
+**4.5** Clique em **Headers** e configure os valores abaixo, com os conteúdos aceitos na request/response: 
+```
+KEY: Content-Type | VALUE: application/json
+ACCEPT: Content-Type | VALUE: application/json
+```
+![lab01_topico_4.5_headers.png](images/1/lab01_topico_4.5_headers.png)
+
+**4.6** Clique em **Body** e selecione a opção **raw** e coloque o json de teste: 
 ```json
 {
 	"opportunityName" : "Opportunity name",
@@ -289,15 +297,15 @@ O método você deverá colocar **POST** e a **URL** deverá ser a URL recuperad
 
 ![image042.png](images/1/image042.png)
 
-**4.5** Clique em **Send** e espere a resposta. Ela deverá conter um json de resposta, parecido com a imagem abaixo:
+**4.7** Clique em **Send** e espere a resposta. Ela deverá conter um json de resposta, parecido com a imagem abaixo:
 
 ![image043.png](images/1/image043.png)
 
-**4.6** Volte para o Oracle Integration Cloud - OIC e clique em **<**. 
+**4.8** Volte para o Oracle Integration Cloud - OIC e clique em **<**. 
 
 ![image044.png](images/1/image044.png)
 
-**4.7** Clique em **Monitoring** -> **Tracking**. Observe que a sua mensagem está aparecendo em verde. Clique em cima da mensagem e observe o caminho feito pela 
+**4.9** Clique em **Monitoring** -> **Tracking**. Observe que a sua mensagem está aparecendo em verde. Clique em cima da mensagem e observe o caminho feito pela 
 
 ![image046.png](images/1/image046.png)
 
